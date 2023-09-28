@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/structure/organelos celulares/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="header">
+		<div class="container1">
+			<div class="logo">
+                    <h1>Logotipo</h1>
+			</div>
+			<nav class="menu">
+				<a href="/index.html">Inicio</a>
+				<a href="/structure/we.html">Nosotros</a>
+				<a href="/structure/biology.html">¿Qué es la Biología?</a>
+			</nav>
+		</div>
+	</header>
+    <!--  -->
+    <div class="div">
+        <div class="title">
+            <h1>Organelos Celulares</h1>
+        </div>
+        <div class="container">
+            <p>
+                Los organelos celulares son estructuras especializadas que se encuentran dentro de las células eucariotas. 
+                Las células eucariotas se caracterizan por tener un núcleo definido rodeado por una membrana. 
+                Estos organelos desempeñan diversas funciones vitales para el funcionamiento de la célula y se asemejan en cierta medida 
+                a los órganos en un organismo completo. Cada uno de estos organelos tiene una función específica dentro de la célula, 
+                contribuyendo de manera crucial a los procesos biológicos que permiten que la célula realice sus actividades y se mantenga 
+                con vida.
+            </p>
+            
+        </div>
+        <br><br>
+        <div class="options">
+            <div class="team">            
+                <h1>Selecciona un tema de los Organelos Celulares:</h1>
+            </div>
+            <!-- Dropdown list -->
+            <select id="topicDropdown">
+                <option value="1">Nucleo</option>
+                <option value="2">Citoplasma</option>
+                <option value="3">Membrana Celular</option>
+                <option value="4">Mitocondrias</option>
+                <option value="5">Reticulo endoplasmático</option>
+                <option value="6">Ribosomas</option>
+                <option value="7">Complejo de Golgi</option>
+                <option value="8">Lisosomas</option>
+                <option value="9">Centriolos</option>
+                <option value="10">Cloroplastos</option>
+                <option value="11">Vacuola</option>
+                <option value="12">Nucléolo</option>
+            </select>
+            <br><br>
+            <!-- Display selected topic -->
+            <div class="team">
+                <h2>Tema seleccionado: <span id="selectedTopic"></span></h2>
+            </div>
+        </div>
+<br><br>
+        <!-- Contenedor de información -->
+    <div id="infoContainer" class="info-container">
+            <!-- Contenido específico para cada tema -->
+        <div class="centrar">
+            <div id="nucleoInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Núcleo</h2>
+                <p>El núcleo es el centro de control de la célula y contiene el material 
+                    genético (ADN) que dirige todas las actividades celulares.</p>
+                <img src="/structure/organelos celulares/img/nucleo-celular1-e1535469164136.jpg" alt="" class="img">
+            </div>
+
+            <div id="citoplasmaInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Citoplasma</h2>
+                <p>El citoplasma es una sustancia gelatinosa que llena el espacio entre el núcleo
+                     y la membrana celular, donde ocurren muchas reacciones químicas y se encuentran otros 
+                     organelos.</p>
+                <img src="/structure/organelos celulares/img/celula-estructura-min-e1534186690665.jpg" alt="" class="img">
+            </div>
+
+            <div id="membranaInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Membarana Celular</h2>
+                <p>La membrana celular rodea y protege la célula, regulando el paso de sustancias dentro y fuera de ella.</p>
+                <img src="/structure/organelos celulares/img/membrana-celular-mirada-mas-cercana_1308-15215.avif" alt="" class="img">
+            </div>
+
+            <div id="mitocondriaInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Mitocondria</h2>
+                <p> Las mitocondrias son los "centrales de energía" de la célula, donde se produce la mayor parte de 
+                    la energía en forma de ATP.</p>
+                <img src="/structure/organelos celulares/img/mitocondria_bg.webp" alt="" class="img">
+            </div>
+
+            <div id="reticuloInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Retículo endoplasmático</h2>
+                <p>Este organelo desempeña un papel en la síntesis de proteínas y lípidos, y puede ser rugoso 
+                    (con ribosomas) o liso (sin ribosomas).</p>
+                <img src="/structure/organelos celulares/img/reticulo-endoplasmatico_bg.webp" alt="" class="img">
+            </div>
+
+            <div id="ribosomasInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Ribosomas</h2>
+                <p>En el campo de la biología, es una estructura que se encuentra dentro de las células que participan en la elaboración de proteínas.
+                    Los ribosomas ayudan a que los aminoácidos se junten para formar proteínas.</p>
+                <img src="/structure/organelos celulares/img/estructura-de-ribosoma-significados_bg.webp" alt="" class="img">
+
+            </div>
+
+            <div id="GolgiInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Complejo de Golgi</h2>
+                <p>Este organelo participa en la modificación, empaquetamiento y distribución de proteínas
+                     y lípidos a otras partes de la célula o fuera de ella.</p>
+                <img src="/structure/organelos celulares/img/aparato-de-golgi.jpg" alt="" class="img">
+            </div>
+
+            <div id="libosomasInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Lisosomas</h2>
+                <p>Los lisosomas contienen enzimas digestivas que descomponen desechos celulares y materiales no deseados.</p>
+                <img src="/structure/organelos celulares/img/lisosoma-aparato-de-golgi-formacion-e1585937556320.jpg" alt="" class="img">
+            </div>
+
+            <div id="centrioloInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Centriolos</h2>
+                <p>El centrosoma es esencial para la división celular y contiene dos centriolos que ayudan en la formación de
+                     microtúbulos.</p>
+                <img src="/structure/organelos celulares/img/centrioles-are-cylindrical-organelles-found-in-most-eukaryotic-cells-vector.jpg" alt="" class="img">
+            </div>
+
+            <div id="cloroplastosInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Cloroplastos</h2>
+                <p>Los cloroplastos son organelos presentes en las células vegetales y en algunas células de organismos fotosintéticos. 
+                    Son responsables de la fotosíntesis, donde se convierte la luz solar en energía química almacenada en forma de glucosa 
+                    y otros azúcares.</p>
+                <img src="/structure/organelos celulares/img/chloroplasts-g98a80c219-1920.webp" alt="" class="img">
+            </div>
+
+            <div id="vacuolaInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>vacuola</h2>
+                <p>Las vacuolas son sacos membranosos llenos de líquido que se encuentran en el interior de las células vegetales y 
+                    algunas células animales. Almacenan agua, nutrientes y desechos, y también desempeñan un papel en la turgencia celular
+                     y la regulación de la presión osmótica.</p>
+                <img src="/structure/organelos celulares/img/Plant-cell-structure-vacuole.webp" alt="" class="img">
+            </div>
+
+            <div id="nucleoloInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Nucléolo</h2>
+                <p>Aunque se encuentra dentro del núcleo, el nucléolo es una estructura especializada que no está rodeada por membrana. 
+                    Juega un papel importante en la síntesis de ribosomas.</p>
+                <img src="/structure/organelos celulares/img/envoltura-nuclear_bg.webp" alt="" class="img">
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <footer>
+        <div class="alert alert-primary" role="alert">
+            Referencias<a href="http://ri.uaemex.mx/bitstream/handle/20.500.11799/79704/secme-4396_3.pdf?sequence=3" class="alert-link">Organelos Celulares</a>
+          </div>
+
+    </footer>
+<script src="app.js"></script>
+</body>
+</html>

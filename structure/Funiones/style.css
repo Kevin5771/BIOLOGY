@@ -1,0 +1,214 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/structure/Funiones/pexels-irina-iriser-1086583.jpg');
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #f9f9f9;
+    left: 10%;
+    right: 10%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 20px;
+    padding: 45px;
+    color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(15.1, 15.2, 15.3, 15.4); 
+    border-radius: 8px; 
+}
+
+/* Estilos para el encabezado */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-menu {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.logo {
+    display: block;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    background-image: url('/img/Usac_logo.png');
+    background-size: cover;
+    text-indent: -9999px;
+    opacity: 0.6;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #333;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 20px;
+    transition: color 0.3s; /* Transición suave de color al pasar el mouse */
+}
+.menu a:hover {
+    color: #ff9900; /* Cambia el color al pasar el mouse */
+}
+/* Estilos para el contenido principal */
+.div {
+    padding: 20px;
+}
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    color:#f2f2f2;
+}
+.title h1 {
+    font-size: 32px;
+    color: #f9f9f9;
+}
+.options h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.options{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* Estilos para el dropdown de temas */
+#topicDropdown {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center; 
+    align-items: center; 
+    width: 35%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  
+  #topicDropdown:hover {
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px rgba(0, 0, 1, 0.2);
+  }
+
+/* Contenedor de información */
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    left: 10%;
+    right: 10%;
+}
+
+.info {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: none; 
+    left: 10%;
+    right: 10%;
+}
+
+#infoContainer{
+    left: 10%;
+    right: 10%;
+}
+
+.info h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* Estilos específicos para cada tema */
+#nucleoInfo, #citoplasmaInfo, #membranaInfo, #mitocondriaInfo, #reticuloInfo, #ribosomasInfo, #GolgiInfo, #libosomasInfo, #centrioloInfo, #cloroplastosInfo, #vacuolaInfo, #nucleoloInfo {
+    background-color: #EBF5FB;
+    border-color: #ddd;
+    color: #333;
+    border-radius: 20px;
+    left: 10%;
+    right: 10%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2); 
+    display: none;
+}
+
+/* Estilos para el footer */
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 18px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.team{
+    color:#f9f9f9;
+    font-size: 18px;
+}
+
+.img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    border-radius: 20px;
+    width: 400px;
+}
+.centrar {
+    margin-left: auto;
+    margin-right: auto;
+}

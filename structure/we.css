@@ -1,0 +1,131 @@
+/* Resetear márgenes y padding y usar Montserrat Alternates como fuente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* Establecer fondo de la página */
+body {
+    background: url(https://www.xtrafondos.com/wallpapers/montanas-con-nieve-en-el-bosque-3934.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+/* Estilo de capa semitransparente */
+.capa {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+/* Estilos del encabezado */
+.header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container .btn-menu,
+.logo {
+    float: left;
+    line-height: 100px;
+}
+
+.container .btn-menu label {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.logo h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.container .menu {
+    float: right;
+    line-height: 100px;
+}
+
+.container .menu a {
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.container .menu a:hover {
+    border-bottom: 2px solid #c7c7c7;
+    padding-bottom: 5px;
+}
+
+/* Estilos del contenedor */
+.contenedor {
+    text-align: center;
+    margin: 100px;
+    color: #29323c;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.contenedor-integrantes {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.integrante {
+    margin: 25px;
+    width: 300px;
+    background-color: #fcfef5;
+    border-radius: 35px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    box-shadow: 10px 14px 28px rgba(0, 0, 0, 0.3);
+}
+
+.integrante img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.integrante h2 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+.integrante p {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+

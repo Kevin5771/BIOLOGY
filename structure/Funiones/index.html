@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/structure/Funiones/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="header">
+		<div class="container1">
+			<div class="logo">
+                    <h1>Logotipo</h1>
+			</div>
+			<nav class="menu">
+				<a href="/index.html">Inicio</a>
+				<a href="/structure/we.html">Nosotros</a>
+				<a href="/structure/biology.html">¿Qué es la Biología?</a>
+			</nav>
+		</div>
+	</header>
+    <!--  -->
+    <div class="div">
+        <div class="title">
+            <h1>Funciones de los Seres Vivos</h1>
+        </div>
+        <div class="container">
+            <p>
+                Las funciones de los seres vivos se refieren a las actividades esenciales que realizan los 
+                organismos vivos para mantener su vida, crecer, reproducirse y adaptarse a su entorno. Estas funciones 
+                son fundamentales para la supervivencia de los seres vivos
+            </p>
+            
+        </div>
+        <br><br>
+        <div class="options">
+            <div class="team">            
+                <h1>Selecciona un tema de los Organelos Celulares:</h1>
+            </div>
+            <!-- Dropdown list -->
+            <select id="topicDropdown">
+                <option value="1">Nutrición</option>
+                <option value="2">Respiración</option>
+                <option value="3">Circulación</option>
+                <option value="4">Excreción</option>
+                <option value="5">Crecimiento y desarrollo</option>
+                <option value="6">Reproducción</option>
+                <option value="7">Irritabilidad y respuesta a estímulos</option>
+                <option value="8">Movimiento</option>
+                <option value="9">Homeostasis</option>
+                <option value="10">Defensa</option>
+                <option value="11">Adaptación</option>
+                <option value="12">Comunicación</option>
+            </select>
+            <br><br>
+            <!-- Display selected topic -->
+            <div class="team">
+                <h2>Tema seleccionado: <span id="selectedTopic"></span></h2>
+            </div>
+        </div>
+<br><br>
+        <!-- Contenedor de información -->
+    <div id="infoContainer" class="info-container">
+            <!-- Contenido específico para cada tema -->
+        <div class="centrar">
+            <div id="nucleoInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Nutrición</h2>
+                <p>Los seres vivos deben obtener nutrientes para obtener energía y materiales necesarios para su crecimiento y funcionamiento. 
+                    Esta función incluye la ingestión, digestión, absorción y metabolismo de nutrientes.</p>
+                <img src="/structure/Funiones/img/funcion_de_nutricion_que_es_y_procesos_3386_orig.jpg" alt="" class="img">
+            </div>
+
+            <div id="citoplasmaInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Respiración</h2>
+                <p>La respiración es el proceso mediante el cual los seres vivos toman oxígeno del ambiente y liberan dióxido de carbono como producto de desecho. 
+                    El oxígeno es esencial para la producción de energía a través de la respiración celular.</p>
+                <img src="/structure/Funiones/img/sistema-respiratorio.webp" alt="" class="img">
+            </div>
+
+            <div id="membranaInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Circulación</h2>
+                <p>La circulación implica el transporte de nutrientes, oxígeno y otros productos químicos a 
+                    través del cuerpo del organismo. En los seres humanos y muchos otros animales,
+                     esto se logra mediante un sistema circulatorio que incluye el corazón y los vasos sanguíneos.</p>
+                <img src="/structure/Funiones/img/Funcion-circulatoria-Fisiologia.jpg" alt="" class="img">
+            </div>
+
+            <div id="mitocondriaInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Excreción</h2>
+                <p> La excreción es la eliminación de desechos y sustancias tóxicas del cuerpo. Los seres vivos generan desechos como resultado de sus 
+                    procesos metabólicos, y estos deben eliminarse para mantener un ambiente interno saludable.</p>
+                <img src="/structure/Funiones/img/Excreción1.jpeg" alt="" class="img">
+            </div>
+
+            <div id="reticuloInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Crecimiento y desarrollo</h2>
+                <p> Los seres vivos tienen la capacidad de crecer y desarrollarse a lo largo de su ciclo de vida. 
+                    Esto implica el aumento en tamaño y la adquisición de nuevas estructuras y funciones a medida que maduran.</p>
+                <img src="/structure/Funiones/img/crecimiento-e1604422865957.jpg" alt="" class="img">
+            </div>
+
+            <div id="ribosomasInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Reproducción</h2>
+                <p>La reproducción es el proceso mediante el cual los seres vivos generan descendencia. 
+                    Puede ser asexual (un solo progenitor) o sexual (dos progenitores), dependiendo de la especie.</p>
+                <img src="/structure/Funiones/img/maxresdefault.jpg" alt="" class="img">
+
+            </div>
+
+            <div id="GolgiInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Irritabilidad y respuesta a estímulos</h2>
+                <p>Los seres vivos pueden detectar y responder a cambios en su entorno. Esto les permite adaptarse a condiciones cambiantes y mantener su
+                     homeostasis, es decir, el equilibrio interno.</p>
+                <img src="/structure/Funiones/img/1_afoBMt_Bmb1nqJXNKb7NCQ.jpg" alt="" class="img">
+            </div>
+
+            <div id="libosomasInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Movimiento</h2>
+                <p>Muchos seres vivos tienen la capacidad de moverse, ya sea de manera activa (como animales) o pasiva (como plantas que responden 
+                    al crecimiento hacia la luz).</p>
+                <img src="/structure/Funiones/img/musculos-movimiento-de-flexion.png" alt="" class="img">
+            </div>
+
+            <div id="centrioloInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Homeostasis</h2>
+                <p> Los seres vivos regulan su ambiente interno para mantener condiciones estables y óptimas para la vida. Esto implica mantener una temperatura, 
+                    pH y otras condiciones internas adecuadas.</p>
+                <img src="/structure/Funiones/img/what_is_homeostasis_advanced_pathology.jpg" alt="" class="img">
+            </div>
+
+            <div id="cloroplastosInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Defensa</h2>
+                <p> Los seres vivos deben protegerse a sí mismos de amenazas potenciales, como depredadores, patógenos o condiciones ambientales adversas. 
+                    Esto implica la capacidad de desarrollar mecanismos de defensa, como espinas en las plantas, sistemas inmunológicos
+                     en animales, o incluso comportamientos defensivos.</p>
+                <img src="/structure/Funiones/img/sistema-inmunologico-min-e1519306172192.jpg" alt="" class="img">
+            </div>
+
+            <div id="vacuolaInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Adaptación</h2>
+                <p>Los seres vivos tienen la capacidad de adaptarse a su entorno a lo largo del tiempo. Esto puede involucrar cambios genéticos a lo 
+                    largo de generaciones (evolución) o respuestas individuales a cambios ambientales, como la adaptación al clima, 
+                    la disponibilidad de alimentos o la interacción con otras especies.</p>
+                <img src="/structure/Funiones/img/adaptacion_biologica_que_es_tipos_y_ejemplos_2893_orig.jpg" alt="" class="img">
+            </div>
+
+            <div id="nucleoloInfo" class="info" class="alert alert-light rounded shadow">
+                <h2>Comunicación</h2>
+                <p>Muchos seres vivos, especialmente los animales, utilizan formas de comunicación para interactuar con otros 
+                    individuos de su especie. Esto puede involucrar señales visuales, auditivas, químicas o táctiles que permiten la
+                    transmisión de información, como la ubicación de alimentos, el apareamiento o la advertencia de peligros.</p>
+                <img src="/structure/Funiones/img/tipos-de-comunicacin-celular-8-320.webp" alt="" class="img">
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <footer>
+        <div class="alert alert-primary" role="alert">
+            Referencias<a href="http://ri.uaemex.mx/bitstream/handle/20.500.11799/79704/secme-4396_3.pdf?sequence=3" class="alert-link">Funciones de los Seres Vivos</a>
+          </div>
+
+    </footer>
+<script src="app.js"></script>
+</body>
+</html>
